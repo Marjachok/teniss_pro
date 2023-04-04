@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;800&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: #0862A0;
+  font-family: 'Nunito', sans-serif;
+  color:white;
+  margin: 0;
 }
+@media only screen and (max-width:767px){
+  .name{
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
   }
 }
+@media only screen and (min-width:768px){
+  .name{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+}
+@media only screen and (min-width:992px){
+  .header{
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 45% 45% ;
+  }
+  .name{
+
+    margin-left: 20%;
+    font-size: 2rem;
+    font-weight: 800;
+
+  }
+  .menu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 600;
+
+    padding-bottom: 0;
+  }
+  li{
+    margin-top: 1rem;
+  }
+  p{
+    margin: 0;
+  }
+
+  .but{
+    padding: 15px 0;
+    margin-top: 0;
+
+    width: 18%;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color:#0862A0
+}
+.info{
+  width: 40%;
+  margin-left: 18%;
+  margin-top: 20%;
+
+}
+  .text_large{
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 55px;
+  }
+  .text_small{
+    margin-top: 5%;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 25px;
+  }
+
+  .text2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .but1{
+    padding: 15px 0;
+    margin-top: 0;
+
+    width: 35%;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color:#0862A0
+}
+  .photo_div{
+    margin-top: 10%;
+  }
+  .photo{
+    position: absolute;
+    margin:0.5%;
+    width: 31%;
+  }
+  .photo_bg{
+    position: absolute;
+    z-index: -1;
+    width: 32%;
+  }
+  .middle{
+    display: grid;
+    grid-template-columns: 50% 50% ;
   }
 }
