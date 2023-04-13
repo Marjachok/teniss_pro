@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Marjachok/teniss_pro.git/static/css/main.0a1ecec5.css",
+    "main.js": "/Marjachok/teniss_pro.git/static/js/main.47782cd9.js",
+    "static/js/787.78ab3420.chunk.js": "/Marjachok/teniss_pro.git/static/js/787.78ab3420.chunk.js",
+    "static/media/Cover_Image.png": "/Marjachok/teniss_pro.git/static/media/Cover_Image.54ed43d96a4e6d26c88b.png",
+    "index.html": "/Marjachok/teniss_pro.git/index.html",
+    "main.0a1ecec5.css.map": "/Marjachok/teniss_pro.git/static/css/main.0a1ecec5.css.map",
+    "main.47782cd9.js.map": "/Marjachok/teniss_pro.git/static/js/main.47782cd9.js.map",
+    "787.78ab3420.chunk.js.map": "/Marjachok/teniss_pro.git/static/js/787.78ab3420.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a1ecec5.css",
+    "static/js/main.47782cd9.js"
+  ]
+}
